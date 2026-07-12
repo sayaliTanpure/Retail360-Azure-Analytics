@@ -1,0 +1,15 @@
+# Azure Implementation
+
+This folder contains screenshots and documentation of the Azure implementation used in the Retail360 Customer Analytics project.
+
+Azure Services Used:
+- Azure Data Lake Storage Gen2
+- Azure Data Factory
+
+Architecture:
+
+Raw → Silver → Gold
+
+The Raw layer contains raw inconsistent data.
+The Silver layer contains cleaned data extracted from raw data.
+The Gold layer contains business-ready datasets that are used in the Power BI dashboards.
